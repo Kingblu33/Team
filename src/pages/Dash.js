@@ -2,19 +2,20 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import InfoSection from '../components/infoSection'
 import Section1 from '../components/Section1'
+import Section2 from '../components/Section2'
+import Footbar from '../components/Footbar'
 
 const Dash = () => {
 return (
     <div>
         <Navbar/>
-        <div className="w-full overflow-hidden bg-white flex justify-center min-h-max pt-10">
         <InfoSection/>
-        
-        </div>
-        <div className='w-full overflow-hidden bg-white flex justify-center min-h-max pt-10'>
         <Section1/>
-        </div>
-       
+        <Section2/>
+        <Footbar/>
+        
+        
+        
 
     </div>
 )
