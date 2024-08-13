@@ -4,6 +4,7 @@ import InfoSection from '../components/infoSection'
 import Section1 from '../components/Section1'
 import Section2 from '../components/Section2'
 import Footbar from '../components/Footbar'
+import Section3 from '../components/Section3'
 
 const Dash = () => {
 return (
@@ -12,11 +13,8 @@ return (
         <InfoSection/>
         <Section1/>
         <Section2/>
+        <Section3/>
         <Footbar/>
-        
-        
-        
-
     </div>
 )
 }
