@@ -6,7 +6,7 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 const InfoSection = () => {
     return (
         <div className="w-full overflow-hidden bg-white flex justify-center min-h-max pt-10"> 
-        <div className="flex flex-col items-center w-full max-w-4xl border border-gray-9">
+        <div className="flex flex-col items-center w-full max-w-6xl border border-gray-9">
             <img 
                 src="https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148874050.jpg" 
                 alt="User Cover"

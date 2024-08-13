@@ -25,7 +25,7 @@ const slideData = [
 
 const Section1 = () => (
   <div className="w-full overflow-hidden bg-white flex justify-center p-0 mt-6">
-    <div className="w-full max-w-4xl flex space-x-3">
+    <div className="w-full max-w-6xl flex space-x-3">
       {slideData.map((post, index) => {
         let widthClass = 'flex-1'; // Default width for slides
         if (index === 0) {

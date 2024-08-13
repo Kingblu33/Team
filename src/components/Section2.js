@@ -2,6 +2,7 @@ import React from 'react';
 
 const Section2 = () => {
     return (
+        <div className="w-full max-w-6xl flex flex-col lg:flex-row space-y-6 lg:space-y-0 lg:space-x-6">
         <div className='w-full overflow-hidden bg-white flex justify-center p-4 mt-2'>
             {/* Container for the first two cards */}
             <div className='flex flex-col space-y-4 max-w-sm'>
@@ -10,7 +11,7 @@ const Section2 = () => {
                     <div className='border-b border-gray-200'>
                         <h5 className="mb-2 px-2 py-1 text-xl tracking-tight text-gray-900">Welcome to Onboard Connectivity</h5>
                     </div>
-                    <p className="font-normal p-3 text-gray-700">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    <p className="font-normal p-3 text-gray-700">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order. <span className='text-blue-200'>Read more...</span></p>
                 </a>
 
                 {/* Random Card */}
@@ -76,6 +77,7 @@ const Section2 = () => {
                 </a>
 
             </div>
+        </div>
         </div>
     );
 };

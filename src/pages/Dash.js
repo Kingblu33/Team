@@ -11,8 +11,8 @@ return (
     <div>
         <Navbar/>
         <InfoSection/>
-        <Section1/>
         <Section2/>
+        <Section1/>
         <Section3/>
         <Footbar/>
     </div>

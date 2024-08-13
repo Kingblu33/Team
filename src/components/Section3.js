@@ -94,7 +94,7 @@ const Section3 = () => {
 
     return (
         <div className="w-full overflow-hidden bg-white flex justify-center mt-6">
-            <div className="w-full max-w-4xl flex flex-col lg:flex-row space-y-6 lg:space-y-0 lg:space-x-6">
+            <div className="w-full max-w-6xl flex flex-col lg:flex-row space-y-6 lg:space-y-0 lg:space-x-6">
                 <div className="w-[1100px]">
                     <section className="bg-white border h-[130px] border-gray-200 shadow">
                         <div className="border-b border-gray-300">

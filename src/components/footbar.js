@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa'; // Example social icons
+import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa'; 
 
 const Footbar = () => {
   return (
