@@ -1,6 +1,5 @@
 import React from 'react';
 import { IoIosNotificationsOutline } from "react-icons/io";
-import { CgProfile } from "react-icons/cg";
 import { GiPlagueDoctorProfile } from "react-icons/gi";
 
 const Navbar = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { CiStar } from "react-icons/ci";
+import { Link } from 'react-router-dom';
 import { MdStarOutline } from "react-icons/md";
 import { RiArrowDropDownLine } from "react-icons/ri";
 
@@ -34,11 +34,11 @@ const InfoSection = () => {
                         </div>
                     </div>
                     <div className="mt-6 items-center flex text-sm space-x-4">
-                        <a href="/" className="text-gray-600 hover:text-black font-Roboto">Dashboard</a>
+                        <Link to={"/"}className="text-gray-600 hover:text-black font-Roboto">Dashboard</Link>
                         <a href="/" className="text-gray-600 hover:text-black font-Roboto">Feed</a>
                         <a href="/" className="text-gray-600 hover:text-black font-Roboto">Content</a>
                         <a href="/" className="text-gray-600 hover:text-black font-Roboto">Files</a>
-                        <a href="/" className="text-gray-600 hover:text-black font-Roboto">About</a>
+                        <Link to={"/About"} className="text-gray-600 hover:text-black font-Roboto">About</Link>
                     </div>
                 </div>
             </div>
